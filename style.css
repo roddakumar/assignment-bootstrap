@@ -1,0 +1,110 @@
+img{
+
+    align:right;
+    width: 200px;
+    position: relative;
+    bottom:50px;
+}
+
+#p li{
+display: inline;
+position: relative;
+bottom:50px;
+padding-right: 200px;
+padding-bottom: 40px;
+text-align: left;
+background-color: green;
+border: 90px;
+text-decoration: none;
+}
+ nav a:hover{
+     
+     text-decoration-color: black;
+     font-display: bold;
+ }
+#n li{
+    position: relative;
+    padding-bottom: 40px;
+    text-align: center;
+    border:1px solid #000;
+    padding:20px;
+    width: 160px;
+    display: table;
+    height: 20px;
+    background-color: green;
+    color:black;
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+
+#s li{
+    position: relative;
+    bottom: 600px;
+    padding: 20px;
+    width:160px;
+    height:30px;
+    text-align: center;
+    border:1px solid #000;
+    float: right;
+    background-color: green;
+    text-decoration: none;
+    margin-left: 900px;
+    list-style:none;
+}
+#w1{
+    float: right;
+    position: relative;
+    bottom : 650px;
+    margin-right:50px;
+    text-emphasis: bold; 
+    
+}
+
+#button1{
+    position:relative;
+    left:20px;
+    bottom: 1830px;
+    text-align:center;
+    padding:500px;
+    color:green;
+    margin-right:590px;
+    }
+    #button2{
+        position:relative;
+        left:20px;
+        bottom: 2500px;
+        text-align:center;
+        color:green;
+        margin-left:500px;
+    }
+
+.fb-body-footer{
+ width:100%;
+ position:absolute;
+ left:0px;
+ height:50px;
+ background-color: #131A22;
+
+ 
+}
+#fb-body-footer-base{
+ width:100%;
+ top:15px;
+ color:white;
+ height:30px;
+ background-color:#131A22; 
+ float:center;
+ padding-left: 20px;
+  
+}
+
+.fa {
+ margin: none;
+ font-size: 30px;
+ width: 30px;
+ margin-right: 30px;
+ float: right;
+ color:white;
+ text-decoration: none;
+}
