@@ -17,11 +17,11 @@ background-color: green;
 border: 90px;
 text-decoration: none;
 }
- nav a:hover{
+ /* nav a:hover{
      
      text-decoration-color: black;
      font-display: bold;
- }
+ } */
 #n li{
     position: relative;
     padding-bottom: 40px;

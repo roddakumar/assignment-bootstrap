@@ -1,23 +1,20 @@
-#header
-{
-   background-color:#000000;
-   color:#ffffff;
-   width:100%;
+body {
+	font-family: 'Montserrat', sans-serif;
 }
 
-.navbar-brand{
-padding: 13px 15px;
+#header {
+	color: #ffffff;
+	width: 100%;
+}
+
+.navbar-brand {
+	padding: 13px 15px;
+}
 
 
-}
-.navbar-default {
-   background-color: blue;
-   border-color: #E7E7E7;
-}
 /* --------------------------------------
    Layout
    -------------------------------------- */
-
 
 
 /* --------------------------------------
@@ -25,49 +22,53 @@ padding: 13px 15px;
    -------------------------------------- */
 
 
-
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-   
-   
-   
+
+
 /* --------------------------------------
    Carousel
    -------------------------------------- */
-#myCarousel{
-margin-top:60px;
-}
-.carousel-caption{
-font-size:14px;
-}
-.carousel-caption h4{
-font-size:24px;
+
+#myCarousel {
+	margin-top: 60px;
 }
 
-#myCarousel .item{height:400px;}
-#slide1{
-background: url('../../images/s4.jpg') top center no-repeat;
-
-}
-#slide2{
-background: url('../../images/banner1.jpg') top center no-repeat;
-
-}
-#slide3{
-background: url('../../images/s6.jpeg') top center no-repeat;
+.carousel-caption {
+	font-size: 14px;
 }
 
-#demoImage{
-   background: url('../../images/bimage.jpg') top center no-repeat;
-   height: 600px;
-}
-#demoImage1{
-   background: url('../../images/s3.jpg')top center no-repeat;
-   
-
+.carousel-caption h4 {
+	font-size: 24px;
 }
 
+#myCarousel .item {
+	height: 400px;
+}
+
+#slide1 {
+	background: url('../../images/s4.jpg') top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../images/banner1.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../images/s6.jpeg') top center no-repeat;
+}
+
+#demoImage {
+	background: url('../../images/bimage.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+
+#demoImage1 {
+	background: url('../../images/s3.jpg')top center no-repeat;
+}
 
 
 /* --------------------------------------
@@ -75,140 +76,122 @@ background: url('../../images/s6.jpeg') top center no-repeat;
    -------------------------------------- */
 
 
-
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
+
 /* Portrait & landscape phone */
+
 @media (max-width: 480px) {
-#slide1{
-background: url('../../images/s4.jpg') top center no-repeat;
-
+	#slide1 {
+		background: url('../../images/s4.jpg') top center no-repeat;
+	}
+	#slide2 {
+		background: url('../../images/banner1.jpg') top center no-repeat;
+	}
+	#slide3 {
+		background: url('../../images/s6.jpg') top center no-repeat;
+	}
 }
-#slide2{
-background: url('../../images/banner1.jpg') top center no-repeat;
 
-}
-#slide3{
-background: url('../../images/s6.jpg') top center no-repeat;
-}
 
-   
-   }
-   
-   
-   
-	
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-#myCarousel .item{height:310px;}
-#slide1{
-background: url('../../images/s4.jpeg') top center no-repeat;
-
-}
-#slide2{
-background: url('../../images/banner1.jpg') top center no-repeat;
-
-}
-#slide3{
-background: url('../../images/s6.jpeg') top center no-repeat;
-}
-#demoImage{
-   background: url('../../images/bimage.jpg')top center no-repeat;
-}
-
-   
+	#myCarousel .item {
+		height: 310px;
+	}
 	
+	#slide1 {
+		background: url('../../images/s4.jpeg') top center no-repeat;
+	}
+	
+	#slide2 {
+		background: url('../../images/banner1.jpg') top center no-repeat;
+	}
+	
+	#slide3 {
+		background: url('../../images/s6.jpeg') top center no-repeat;
+	}
+	
+	#demoImage {
+		background: url('../../images/bimage.jpg')top center no-repeat;
+	}
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
-   #myCarousel .item{height:500px;}
-#slide1{
-background: url('../../images/s4.jpeg') top center no-repeat;
-
+	#myCarousel .item {
+		height: 500px;
+	}
+	
+	#slide1 {
+		background: url('../../images/s4.jpeg') top center no-repeat;
+	}
+	
+	#slide2 {
+		background: url('../../images/banner1.jpg') top center no-repeat;
+	}
+	
+	#slide3 {
+		background: url('../../images/s6.jpeg') top center no-repeat;
+	}
+	
+	#demoImage {
+		background: url('../../images/bimage.jpg')top center no-repeat;
+	}
+	
+	#demoImage1 {
+		background: url('../../images/s3.jpg')top center no-repeat;
+	}
 }
-#slide2{
-background: url('../../images/banner1.jpg') top center no-repeat;
-
+.p {
+	padding-top: 60px;
+	font-size: 22px;
 }
-#slide3{
-background: url('../../images/s6.jpeg') top center no-repeat;
+.p1 {
+	padding-top: 140px;
+	margin-right: 30px;
 }
-
-#demoImage{
-   background: url('../../images/bimage.jpg')top center no-repeat;
-   
-
+.mbody {
+	align-items: center;
+	padding: 10px;
 }
-#demoImage1{
-   background: url('../../images/s3.jpg')top center no-repeat;
-   
-
+.co {
+	padding: 30px;
 }
-
-   
-   }
-      
-.p{
-   padding-top:60px; 
-   font-family: 'ABeeZee';font-size: 22px;
-   
+.jumbotron {
+	color: whitesmoke;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	text-align: center;
+	background: url('../../images/bg.jpg')top center no-repeat;
 }
-.p1{
-   padding-top:140px; 
-   margin-right: 30px;
+.fb-body-footer {
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	height: 100px;
+	background-color: #131A22;
 }
-.mbody{
-   align-items: center;
-   padding: 10px;
+#fb-body-footer-base {
+	width: 100%;
+	top: 15px;
+	color: white;
+	height: 30px;
+	background-color: #131A22;
+	float: center;
+	padding-left: 20px;
 }
-
-
-.co{
-
-  padding:30px;
+.fa {
+	margin: none;
+	font-size: 30px;
+	width: 30px;
+	margin-right: 30px;
+	float: right;
+	color: white;
+	text-decoration: none;
+	text-align: center;
 }
-.jumbotron{
-      color:whitesmoke;
-      font-family: Baumans;font-size: 22px;
-      text-align: center;
-      background: url('../../images/bg.jpg')top center no-repeat;
-
-}
-
-
-.fb-body-footer{
-   width:100%;
-   position:absolute;
-   left:0px;
-   height:50px;
-   background-color: #131A22;
-  
-   
-  }
-  #fb-body-footer-base{
-   width:100%;
-   top:15px;
-   color:white;
-   height:30px;
-   background-color:#131A22; 
-   float:center;
-   padding-left: 20px;
-    
-  }
-  
-  .fa {
-   margin: none;
-   font-size: 30px;
-   width: 30px;
-   margin-right: 30px;
-   float: right;
-   color:white;
-   text-decoration: none;
-   text-align: center;
-  }
-  
