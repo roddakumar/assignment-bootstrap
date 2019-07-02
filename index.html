@@ -20,8 +20,6 @@
       <!--google font awesome-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!-- Include Modernizr in the head, before any other Javascript -->
-      <script src="includes/js/modernizr-2.6.2.min.js"></script>
-      <script src="includes/js/jquery-1.8.2.min"></script>
    </head>
    <body>
       <header>
@@ -34,10 +32,10 @@
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>
                </button>
-               <a class="navbar-brand" href="#"><img src="images/Argon.jpg" alt="Your Logo"></a>
+               <a class="navbar-brand" href="#"><img src="images/Argon.jpg" style="margin-left: 10" alt="Your Logo"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <div class="collapse navbar-collapse navbar-ex1-collapse text-center">
                <ul class="nav navbar-nav">
                   <li class="dropdown">
                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Components <b class="caret"></b></a>
@@ -64,22 +62,17 @@
                   </div>
                   <button type="submit" class="btn btn-default">Submit</button>
                </form>
-               <ul class="nav navbar-nav navbar-right">
-                  <li>	<a href="#"><i class="fa fa-github"></i></a></li>
-                  <li>	<a href="#"><i class="fa fa-google"></i></a></li>
-                  <li>	<a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                  <li>
-                     <form class="navbar-form ">
-                        <button type="Download" class="btn btn-default">
-                           <p>Download<span class="glyphicon glyphicon-cloud-download"></span></p>
-                        </button>
-                     </form>
+               <button type="submit" class="btn btn-default pull-right text-center">
+                  <p>Download<span class="glyphicon glyphicon-cloud-download"></span></p>
+               </button>
                   </li>
                </ul>
             </div>
+         </nav>
       </header>
       <!-- /.navbar-collapse -->
-      </nav>
+
+      <main class="container-fluid">
       <div class="carousel slide" id="myCarousel">
          <!-- Indicators -->
          <ol class="carousel-indicators resp-tabs-list">
@@ -122,9 +115,7 @@
          <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
          <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
       </div>
-      <div class="row" id="moreInfo">
-      <div class="p">
-      <div class="col-sm-12">
+      
       <h3>Know About US</h3>
       <!-- Nav tabs -->
       <ul class="nav nav-tabs" role="tablist">
@@ -169,13 +160,14 @@
          <p>
          <h4 style="color: aliceblue">
             The Design System comes with four pre-built pages to help you get started faster. You can change the text and images and you're good to go. 
-            <br>More importantly, looking at them will give you a picture of what you can built with this powerful Bootstrap 4 Design System.
+            <br>More importantly, looking at them will give you a picture of what you can built with this powerful Bootstrap 4 Design System.<br>
+            We apply our engineering excellence, 'thinking inside the box' to add high impact value to our client's technology, their products and their business. We have been trusted to develop technologies and products for startups, SMEs and Fortune 500/FTSE100 brands.
          </h4>
          </p>
          <div class="row" id="p1">
-            <div class="p1">
+            <!-- <div class="p1"> -->
                <div class="col-md-2">
-                  <button type="button" class="btn btn-success btn-lg gtn-block center block" data-toggle="modal" data-target="#myModal1">Login
+                  <button type="button" class="btn btn-success btn-lg btn-block center block" data-toggle="modal" data-target="#myModal1">Login
                   </button>
                   <div class="modal fade" id="myModal1" role="dialog">
                      <div class="modal-dialog">
@@ -202,7 +194,7 @@
                   </div>
                </div>
                <div class="col-md-2">
-                  <button type="button" class="btn btn-Defaul btn-lg gtn-block" data-toggle="modal" data-target="#myModal2">Register</button>
+                  <button type="button" class="btn btn-Defaul btn-lg btn-block" data-toggle="modal" data-target="#myModal2">Register</button>
                   <div class="modal fade" id="myModal2" role="dialog">
                      <div class="modal-dialog">
                         <!-- Modal content-->
@@ -252,27 +244,29 @@
                         </div>
                      </div>
                   </div>
-               </div>
+               <!-- </div> -->
             </div>
          </div>
 	  </div>
 	  <!--start of grid-->
-      <div class="container" style="font-size: 22px;">
+      <div class="container-fluid" style="font-size: 22px;">
          <div class="row">
-            <div class="col-sm-6">
-               <section></section>
-               <h1>Technology consulting.</h1>
-               <p>We apply our engineering excellence, 'thinking inside the box' to add high impact value to our client's technology, their products and their business.
-                  We have been trusted to develop technologies and products for startups, SMEs and Fortune 500/FTSE100 brands.
-               </p>
-               <img src="images/alan.jpg"><br>
-               <p>
-                  Alan has over 30 years' experience in hardware and software design, product development, business development and corporate management. He is a proven entrepreneur and inspirational business leader 
-                  with a successful track record in all areas of electronic product development including strategic business planning, development of new technologies and products, business and market development.
-               </p>
-               </section>
+            <div class="col-md-6">
+               <article class="text-justify">
+                  <h1>Technology consulting.</h1>
+                  <p>We apply our engineering excellence, 'thinking inside the box' to add high impact value to our client's technology, their products and their business.
+                     We have been trusted to develop technologies and products for startups, SMEs and Fortune 500/FTSE100 brands.
+                  </p>
+                  <figure>
+                     <img class="img-responsive" src="images/alan.jpg">
+                  </figure>
+                  <p>
+                     Alan has over 30 years' experience in hardware and software design, product development, business development and corporate management. He is a proven entrepreneur and inspirational business leader 
+                     with a successful track record in all areas of electronic product development including strategic business planning, development of new technologies and products, business and market development.
+                  </p>
+               </article>
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-6">
                <section>
                   <div class="row-2">
                      <article>
@@ -320,35 +314,46 @@
             <a href="#" class="btn btn-primary btn-lg" role="button"><span class="fa fa-github"></span>Start with Git</a>
          </main>
       </div>
-      <footer>
-         <div class="container" id="footer">
-         <div class="row">
-         <div class="col-sm-2">
-         <h6><img src="images/Argon.jpg" /> &copy 2019</h6>
-         </div><!-- end col-sm-2 -->
-         <div class="col-sm-4">
-         <h6>About Us</h6>
-         <p>It's is an UK multinational technology company based in Seattle, Washington that focuses on
-         e-commerce, cloud computing, digital streaming and artificial intelligence. It is considered one of
-         the Big Four technology companies along with Google, Apple and Facebook</p>
-         </div><!-- end col-sm-4 -->
-         <div class="col-sm-2">
-         <h6>Navigation</h6>
-         <ul class="unstyled">
-         <li><a href="../index.html">Home</a></li>
-         <li><a href="#">About</a></li>
-         <li><a href="#">Contact us</a></li>
-         </ul>
+
+      </main>
+
+      <footer class="clearfix"> <!--My Footer begins here-->
+         <div class="container-fluid">
+           <section class="row">
+             <div class="col-xs-4 col-sm-4">
+               <h6>I don't own any Copyrights&copy;</h6>
+             </div>
+      
+             <div class="col-xs-2 col-sm-2">
+               <h6><a href="#">About Me</a></h6>
+             </div>
+      
+             <div class="col-xs-2 col-sm-2">
+               <ul style="list-style: none;">
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#">Movies</a></li>
+                 <li><a href="#">Actors</a></li>
+                 <li><a href="#">Fun Facts</a></li>
+               </ul>
+             </div>
+      
+             <div class="col-xs-2 col-sm-2">
+               <ul style="list-style: none;">
+                 <li><h6><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></h6></li>
+                 <li><h6><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></h6></li>
+                 <li><h6><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></h6></li>
+               </ul>
+             </div>
+      
+             <div class="col-xs-2 col-sm-2">
+               <p>Coded with &hearts;</p>
+             </div>
+      
+           </section>
+      
          </div>
-         <div class="col-sm-2" id="social-icons">
-         <h6>Follow Us</h6>
-         <a href="#" class="fa fa-twitter"></a>
-         <a href="#" class="fa fa-instagram"></a>
-         <a href="#" class="fa fa-google"></a>
-         </div><!-- end col-sm-2 -->
-         </div> <!-- end row -->
-         </div><!-- end container -->
-         </footer>
+      
+       </footer>
          
       <!-- If no online access, fallback to our hardcoded version of jQuery -->
       <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>

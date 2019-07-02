@@ -96,7 +96,6 @@ body {
 }
 
 
-}
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
@@ -185,7 +184,7 @@ body {
 	float: center;
 	padding-left: 20px;
 }*/
-#footer{background:#333;color:#eee;font-size:15px;}#social-icons{font-size:30px;}
+/*#footer{background:#333;color:#eee;font-size:15px;}#social-icons{font-size:30px;}*/
 #social-icons {
 	font-size: 30px;
 	width: 30px;
@@ -194,4 +193,11 @@ body {
 	color:white;
 	text-decoration: none;
 	float: center;
+}
+
+footer{
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
 }
