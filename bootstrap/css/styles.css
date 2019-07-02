@@ -169,29 +169,29 @@ body {
 	text-align: center;
 	background: url('../../images/bg.jpg')top center no-repeat;
 }
-.fb-body-footer {
+/*.fb-body-footer {
 	width: 100%;
 	position: absolute;
 	left: 0px;
 	height: 100px;
-   background-color: #131A22;
+   background-color: black;
 }
-#fb-body-footer-base {
+.fb-body-footer-base {
 	width: 100%;
 	top: 15px;
 	color: white;
 	height: 30px;
-	background-color: #131A22;
+	background-color: black;
 	float: center;
 	padding-left: 20px;
-}
-.fa {
-	margin: none;
+}*/
+#footer{background:#333;color:#eee;font-size:15px;}#social-icons{font-size:30px;}
+#social-icons {
 	font-size: 30px;
 	width: 30px;
-	margin-right: 30px;
+	margin-right: 90px;
 	float: right;
-	color: white;
+	color:white;
 	text-decoration: none;
-	text-align: center;
+	float: center;
 }
